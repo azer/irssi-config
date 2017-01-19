@@ -25,6 +25,6 @@ password=$(dialog --stdout \
                            --ok-label "Write" \
                            --nocancel \
                            --passwordbox "What's your Freenode password?" 8 50)
-sed -i -e "s/IDENTIFY password;/IDENTIFY $password;/" config
+sed -i -e "s/password = \"\"/password = \"$password\"/" config
 echo "Bye"
 

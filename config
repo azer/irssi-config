@@ -104,15 +104,10 @@ channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
   { name = "silc"; chatnet = "silc"; autojoin = "No"; },
   { name = "#archlinux"; chatnet = "FreeNode"; autojoin = "yes"; },
-  { name = "#linux"; chatnet = "FreeNode"; autojoin = "yes"; },
   { name = "#emacs"; chatnet = "FreeNode"; autojoin = "yes"; },
   { name = "#go-nuts"; chatnet = "FreeNode"; autojoin = "yes"; },
   { name = "#rust"; chatnet = "FreeNode"; autojoin = "yes"; },
-  { name = "#haskell"; chatnet = "FreeNode"; autojoin = "yes"; },
-  { name = "#bash"; chatnet = "FreeNode"; autojoin = "yes"; },
-  { name = "#xmonad"; chatnet = "FreeNode"; autojoin = "yes"; },
-  { name = "#choo"; chatnet = "FreeNode"; autojoin = "yes"; },
-  { name = "#vbox"; chatnet = "FreeNode"; autojoin = "yes"; }
+  { name = "#elasticsearch"; chatnet = "FreeNode"; autojoin = "yes"; }
 );
 
 aliases = {
@@ -187,7 +182,7 @@ statusbar = {
     # window_empty is printed with empty windows
 
     window = "";
-    #window_empty = "{sb %C{sbservertag $tag}}%n";   
+    #window_empty = "{sb %C{sbservertag $tag}}%n";
     window_empty = "{sb $winref/{sbservertag $tag}}";
     #prompt = "$winref%K/{prompt $[.15]itemname}";
     prompt = "";
